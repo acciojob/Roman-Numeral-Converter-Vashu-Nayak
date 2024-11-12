@@ -10,9 +10,9 @@ function convertToRoman(num) {
    //  };
 
   //your code here
-	if (num < 1 || num > 10000) {
-        return "Input must be between 1 and 3999";
-    }
+	// if (num < 1 || num > 10000) {
+    //     return "Input must be between 1 and 3999";
+    // }
 
     const romanNumerals = [
         { value: 1000, numeral: 'M' },
